@@ -74,7 +74,7 @@ export function renderMovie(movie) {
     
     titleEl.textContent = movie.Title;
     yearEl.textContent = `Released: ${movie.Released}`;
-    genreEl.textContent = `Genre: ${movie.genre}`;
+    genreEl.textContent = `Genre: ${movie.Genre}`;
     directorEl.textContent = `Director: ${movie.Director}`;
 
     movieDiv.append(titleEl, yearEl, genreEl, directorEl);
