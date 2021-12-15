@@ -23,7 +23,6 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
-
 header {
     display: flex;
     justify-content: flex-end;
@@ -31,7 +30,6 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
-
 
 h2 {
     font-size: 1.8rem;
@@ -50,7 +48,7 @@ p {
     margin: 10px;
     padding: 0;
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
